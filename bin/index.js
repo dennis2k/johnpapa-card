@@ -23,7 +23,7 @@ const data = {
   twitter: chalk.cyan('https://twitter.com/swagminister'),
   github: chalk.cyan('https://github.com/dennis2k'),
   linkedin: chalk.cyan('https://linkedin.com/in/dennis-mortensen-b4045226'),
-  npx: chalk.white('npx @dennis2k/card'),
+  npx: chalk.white('npx dennis2k_'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
