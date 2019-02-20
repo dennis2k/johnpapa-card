@@ -28,7 +28,6 @@ const data = {
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  labelWeb: chalk.white.bold('       Web:'),
   labelCard: chalk.white.bold('      Card:'),
 };
 
@@ -39,7 +38,6 @@ const working = `${data.labelWork}  ${data.work}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
-const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -53,8 +51,6 @@ const output = heading
   + githubing
   + newline
   + linkedining
-  + newline
-  + webing
   + newline
   + newline
   + carding;
